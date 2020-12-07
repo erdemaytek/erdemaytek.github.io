@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  
     async asyncData({$content} ){
     const pages = await $content('posts').limit(6).fetch()
     return {pages}

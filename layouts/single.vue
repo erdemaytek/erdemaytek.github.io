@@ -1,18 +1,14 @@
 <template>
-  <div class="container">
-    <Navbar />
-    <!-- <Hero /> -->
-    <br />
+  <div class="container mt-2">
     <div class="columns is-multiline">
+      <div class="column is-2">
+          <UserProfiler class="card p-5" />
+        <TagList class="card mt-1" />
+      </div>
       <div class="column is-10">
         <Nuxt />
       </div>
-      <div class="column is-2">
-        <TagList />
-      </div>
     </div>
-
-    <!-- <Footer/>  -->
   </div>
 </template>
 
@@ -26,9 +22,8 @@ export default {
 
 <style>
 html {
-  font-family: Quicksand, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

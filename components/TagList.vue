@@ -2,12 +2,15 @@
   <div>
 <aside class="menu">
   <p class="menu-label">
-    General
+    Blog Konuları
   </p>
   <ul class="menu-list">
        <nuxt-link class="" v-for="tag in tags.tags" :key="tag" :to="'/kategori/' + tag"> {{ tag }} </nuxt-link>
   </ul>
+
+  
 </aside>
+
   </div>
 </template>
 

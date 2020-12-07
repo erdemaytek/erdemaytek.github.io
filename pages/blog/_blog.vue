@@ -29,6 +29,7 @@
 
 <script>
 export default {
+
   async asyncData({$content, params} ){
     const blog = params.blog || 'index'
     const page = await $content('posts',blog).fetch()

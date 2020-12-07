@@ -6,6 +6,7 @@
 
 <script>
 export default {
+
     async asyncData({$content, params} ){
     var deger =    params.dinamic
     const pages = await $content('posts').where({ tags: { $regex: [deger, 'i'] } }).fetch()
