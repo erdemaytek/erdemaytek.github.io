@@ -8,7 +8,7 @@
 export default {
   
     async asyncData({$content} ){
-    const pages = await $content('posts').limit(6).fetch()
+    const pages = await $content('posts').fetch()
     return {pages}
   }
 }

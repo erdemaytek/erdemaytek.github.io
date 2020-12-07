@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="columns is-multiline">
-     
+     <div class="column is-2 card">
+       <UserProfil />
+     </div>
       <div class="column ml-2 card">
         <h1 class="title is-4">Öz Geçmiş</h1>
         <p>

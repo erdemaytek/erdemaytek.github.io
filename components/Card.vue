@@ -3,13 +3,14 @@
 
   <div class="card-image">
     <figure class="image is-3by1">
-      <img src="https://miro.medium.com/max/8000/1*ituhuh1lkKGnp3ZV9Azh5w.jpeg" alt="Placeholder image">
+      <img v-if="content.image != null" :src="'/'+ content.image" alt="">
+      <img v-else src="/code.jpeg" alt="">
     </figure>
   </div>
   <div class="card-content">
     <div class="">
        <div class="">
-         <nuxt-link  class="title is-4" :to=" '/blog/'+ content.slug"> {{ content.slug }} </nuxt-link>
+         <nuxt-link  class="title is-4" :to=" '/blog/'+ content.slug"> {{ content.title }} {{ content.image }} </nuxt-link>
       </div>
     </div>
     <div class="content">

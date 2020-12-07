@@ -1,7 +1,10 @@
 ---
-title: MODULE NEDİR VE NE İŞİMİZE YARAR?
-description: Sayfa açıklaması
-etiket: ''
+title: Prisma ORM Kullanımı
+description: Prisma, veritabanı şemanıza göre uyarlanmış, otomatik olarak oluşturulan ve tür güvenli bir sorgu oluşturucu ile veritabanı erişimini kolaylaştırır. Geleneksel ORM'lere ve SQL sorgu oluşturuculara bir alternatif sağlar.
+keywords: javascript, Prisma, nodejs
+image: 
+tags:
+    - Javascript
 ---
 
 prisma init /prisma projesi oluştur.

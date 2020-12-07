@@ -1,11 +1,11 @@
 ---
-title: MODULE NEDİR VE NE İŞİMİZE YARAR?
-description: Sayfa açıklaması
-etiket: ''
+title: Sequelize ORM Kullanımı
+description: Sequelize, Postgres, MySQL, MariaDB, SQLite ve Microsoft SQL Server için vaat tabanlı bir Node.js ORM'dir.
+keywords: javascript, Prisma, nodejs
+image: 
 tags:
-    - Vue JS1
+    - Javascript
 ---
-
 # MODEL YAPISINI ANLAMAK
 
 Modeller Sequelize'nin özüdür. Model denen yapı aslında veritabanınımızdaki tabloyu temsil eden bir soyutlamadır. 

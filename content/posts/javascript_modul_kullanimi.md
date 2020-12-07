@@ -1,7 +1,10 @@
 ---
-title: MODULE NEDİR VE NE İŞİMİZE YARAR?
-description: Sayfa açıklaması
-etiket: ''
+title: Javascript Module Kullanımı
+description: JavaScript ES6 Modules kulllanımı node js de kullanıma göre biraz farklıdır buna değindik.
+keywords: javascript, module, import, nodejs
+image: 
+tags:
+    - Javascript
 ---
 
 # MODULE NEDİR VE NE İŞİMİZE YARAR?
@@ -123,3 +126,4 @@ Console görüntüsü aşağıdaki gibidir.
 # ÖZET
 
 Yazmış olduduğun ilgili kodlarını export et, hangi dosyada kullanmak istiyor isen orada import et.
+

@@ -1,12 +1,9 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item" href="/">
         <img
-          src="https://bulma.io/images/bulma-logo.png"
-          width="112"
-          height="28"
-        />
+          src="~/assets/logo.png" />
       </a>
 
       <a
@@ -34,7 +31,7 @@
         <nuxt-link class="navbar-item" to="/blog/"> Blog</nuxt-link>
       </div>
 
-      <div class="navbar-end">
+      <!-- <div class="navbar-end">
         <div class="navbar-item">
           <div class="control has-icons-left">
               <input class="input is-small is-rounded" type="text" placeholder="Site içi arama" />
@@ -43,7 +40,7 @@
               </span>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>

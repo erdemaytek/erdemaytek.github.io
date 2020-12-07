@@ -1,5 +1,5 @@
 ---
 tags: 
-    - Vue JS
-    - Angular
+    - Javascript
+    - Server
 ---

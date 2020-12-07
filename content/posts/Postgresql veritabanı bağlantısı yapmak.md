@@ -1,14 +1,12 @@
 ---
-title: MODULE NEDİR VE NE İŞİMİZE YARAR?
-description: Sayfa açıklaması
-etiket: ''
+title: NodeJS ve PostgreSQL ile RESTful API Geliştirme
+description: Bu makalemizde node js ve postgresql kullanılarak RESTful API nasıl geliştirilir kısaca onu anlatmaya çalışacağım.
+keywords: javascript, module, import, nodejs
+image: 
 tags:
-    - Vue JS1
-    - Angular1
----
+    - Javascript
 ---
 
-Bu makalemizde node js ve postgresql kullanılarak RESTful API nasıl geliştirilir kısaca onu anlatmaya çalışacağım.
 
 # Gereksinimler
 

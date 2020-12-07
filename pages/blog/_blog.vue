@@ -3,17 +3,24 @@
       <div class="card">
   <div class="card-image">
     <figure class="image is-3by1">
-      <img src="https://miro.medium.com/max/8000/1*ituhuh1lkKGnp3ZV9Azh5w.jpeg" alt="Placeholder image">
+       <img v-if="page.image != null" :src="'/'+ page.image" alt="">
+      <img v-else src="/code.jpeg" alt="">
     </figure>
   </div>
   <div class="card-content">
     <div class="">
        <div class="">
         <a href=""><h1 class="title is-4">{{ page.title }}</h1></a>
+      
       </div>
     </div>
     <br>
     <div class="content">
+      <p>
+          {{ page.description }}
+        </p>
+      <hr>
+        
      <nuxt-content :document="page" />
         <hr>   <time class="tag" datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
 

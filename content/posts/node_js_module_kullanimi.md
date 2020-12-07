@@ -1,7 +1,10 @@
 ---
-title: MODULE NEDİR VE NE İŞİMİZE YARAR?
-description: Sayfa açıklaması
-etiket: 'Angular 2'
+title: Nodejs Module Kullanımı
+description: NodeJS de modul oluşturma ekleme ve çıkarma işlemleri nasıl yapılır buna değindik.
+keywords: javascript, module, import, nodejs
+image: nodejs.png
+tags:
+    - Javascript
 ---
 
 Module nesnesi globaldir ve modül yazmak ve yazılan modüller hakkında bilgi almak amacıyla kullanılır. İki tip kullanımı vardır.
