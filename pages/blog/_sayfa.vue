@@ -3,7 +3,7 @@
 <div class="columns is-multiline">
     <div v-for="item in paginatedArticles" :key="item" class="column is-12"> <Card :content="item" /></div>
 </div>
- <div class="card column is-12">
+ <div class="column is-12">
       <nav class="pagination" role="navigation" aria-label="pagination">
         <!-- <a class="pagination-previous">Previous</a>
         <a class="pagination-next">Next page</a> -->
@@ -23,7 +23,7 @@
 export default {
   async asyncData ({$content, params, error}){
   const currentPage = parseInt(params.sayfa);
-  const perPage = 2;
+  const perPage = 5;
 
   const allArticles = await $content("posts").fetch();
 

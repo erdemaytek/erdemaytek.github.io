@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-multiline">
-          <div v-for="item in pages" :key="item" class="column is-4"> <Card :content="item" /></div>
+          <div v-for="item in pages" :key="item" class="column is-12"> <Card :content="item" /></div>
   </div>
 </template>
 
