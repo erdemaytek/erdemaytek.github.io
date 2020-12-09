@@ -3,6 +3,7 @@ title: Sequelize ORM Kullanımı
 description: Sequelize, Postgres, MySQL, MariaDB, SQLite ve Microsoft SQL Server için vaat tabanlı bir Node.js ORM'dir.
 keywords: javascript, Prisma, nodejs
 image: 
+date: 05.09.2020
 tags:
     - Javascript
 ---

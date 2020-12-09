@@ -3,6 +3,7 @@ title: Prisma ORM Kullanımı
 description: Prisma, veritabanı şemanıza göre uyarlanmış, otomatik olarak oluşturulan ve tür güvenli bir sorgu oluşturucu ile veritabanı erişimini kolaylaştırır. Geleneksel ORM'lere ve SQL sorgu oluşturuculara bir alternatif sağlar.
 keywords: javascript, Prisma, nodejs
 image: 
+date: 09.12.2020
 tags:
     - Javascript
 ---
@@ -59,7 +60,7 @@ npx prisma introspect
 
 > Bu işlemi yapma sebebimiz `Prisma Client` tarafında sorgular yazarken bu modellerimizi kullanacağımız içindir. Bir nevi veritabanının soyutlamasını yapmış olduk. Buda sorgu yazarken bize ciddi kolaylık sağlacaktır.
 
-![](resimler/f7itiYw.png)
+![](/blog/f7itiYw.png)
 
 # Prisma Client Oluşturma ve Yükleme
 
@@ -75,7 +76,7 @@ npm install @prisma/client
 npx prisma generate
 ```
 
-![](resimler/FensWfo.png)
+![](/blog/FensWfo.png)
 
 # İlk Sorgumuzu Yazalım
 

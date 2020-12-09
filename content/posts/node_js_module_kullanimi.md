@@ -3,6 +3,7 @@ title: Nodejs Module Kullanımı
 description: NodeJS de modul oluşturma ekleme ve çıkarma işlemleri nasıl yapılır buna değindik.
 keywords: javascript, module, import, nodejs
 image: nodejs.png
+date: 09.12.2020
 tags:
     - Javascript
 ---

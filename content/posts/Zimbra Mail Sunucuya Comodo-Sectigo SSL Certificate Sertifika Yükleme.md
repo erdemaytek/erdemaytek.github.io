@@ -3,6 +3,7 @@ title: Zimbra Mail Sunucuya Comodo/Sectigo SSL Certificate Yüklemek
 description: Bu yazımda Zimbra Mail Sunucuya Comodo/Sectigo SSL Certificate Sertifika nasıl yüklenir basit bir şekilde aktarmaya çalışacağım.
 keywords: Zimbra, Mail, linux
 image: 
+date: 05.01.2019
 tags:
     - Server
 ---

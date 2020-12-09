@@ -3,6 +3,7 @@ title: Javascript Module Kullanımı
 description: JavaScript ES6 Modules kulllanımı node js de kullanıma göre biraz farklıdır buna değindik.
 keywords: javascript, module, import, nodejs
 image: 
+date: 09.12.2020
 tags:
     - Javascript
 ---
@@ -121,7 +122,7 @@ Modülümüzü head tagları arasında çağırıyoruz. Burada` type="module" `e
 
 Console görüntüsü aşağıdaki gibidir.
 
-![](resimler/module_log.png)
+![](/blog/module_log.png)
 
 # ÖZET
 
