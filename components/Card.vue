@@ -21,7 +21,7 @@
                 class="title is-4"
                 :to="'/blog/makale/' + content.slug"
               >
-                {{ content.title }} {{ content.image }}
+                {{ content.title }}
               </nuxt-link>
             </div>
           </div>

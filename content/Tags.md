@@ -2,4 +2,5 @@
 tags: 
     - Javascript
     - Server
+    - Yönetim
 ---

@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="columns is-multiline">
-     <div class="column is-2 card">
-       <UserProfil />
-     </div>
+      <div class="column is-2 card">
+        <UserProfil />
+      </div>
       <div class="column ml-2 card">
         <h1 class="title is-4">Öz Geçmiş</h1>
         <p>
@@ -17,11 +17,10 @@
           konularında çalışma yaptım. Bu süreçte de çalıştığım yere veya bana
           yardımcı olacağını düşündüğüm yazılımlar geliştirdim. Şuan aktif
           olarak bilgi ve eğitim teknolojileri üzerine çalışmalar yürütmekteyim.
-          Amacım bilişim sistemlerini eğitim de aktif olarak kullanılabilmesini
-          sağlamaktır.
         </p>
-      </div>
+        <hr />
       
+      </div>
     </div>
   </div>
 </template>
@@ -32,5 +31,4 @@ export default {
 </script>
 
 <style>
-
 </style>

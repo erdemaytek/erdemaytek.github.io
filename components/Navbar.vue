@@ -27,7 +27,7 @@
     >
       <div class="navbar-start">
         <nuxt-link class="navbar-item" to="/"> Ana Sayfa</nuxt-link>
-        <nuxt-link class="navbar-item" to="/ozgecmis"> Öz Geçmiş</nuxt-link>
+        <!-- <nuxt-link class="navbar-item" to="/ozgecmis"> Öz Geçmiş</nuxt-link> -->
         <nuxt-link class="navbar-item" to="/blog/"> Blog</nuxt-link>
       </div>
 
