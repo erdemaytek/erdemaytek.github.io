@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         
@@ -23,11 +23,10 @@ jobs:
       - name: Statik Sayfa Oluşturma
         run: npm run generate
         
-      - name: GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.2.0
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          build_dir: docs
-          target_branch: main
-          jekyll: false
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: main # The branch the action should deploy to.
+          FOLDER: docs # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
