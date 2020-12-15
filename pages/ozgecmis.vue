@@ -17,9 +17,7 @@
           konularında çalışma yaptım. Bu süreçte de çalıştığım yere veya bana
           yardımcı olacağını düşündüğüm yazılımlar geliştirdim. Şuan aktif
           olarak bilgi ve eğitim teknolojileri üzerine çalışmalar yürütmekteyim.
-        </p>
-        <hr />
-      
+        </p>      
       </div>
     </div>
   </div>
