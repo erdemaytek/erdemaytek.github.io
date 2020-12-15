@@ -2,6 +2,9 @@ export default {
   env: {
     baseUrl: process.env.BASE_URL || 'http://localhost:4000'
   },
+  generate: {
+    dir: 'docs'
+  },
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
