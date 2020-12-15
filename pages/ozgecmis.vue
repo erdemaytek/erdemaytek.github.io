@@ -16,11 +16,9 @@
           yıl bilişim sistemleri alt yapı planlama, kurulum ve işletilmesi
           konularında çalışma yaptım. Bu süreçte de çalıştığım yere veya bana
           yardımcı olacağını düşündüğüm yazılımlar geliştirdim. Şuan aktif
-          olarak bilgi ve eğitim teknolojileri üzerine çalışmalar yürütmekteyim.
+          olarak bilgi ve eğitim teknolojileri üzerine çalışmalar yürütmekteyim. :-)
         </p>    
-        <hr>
-        -
-        <hr>  
+        
       </div>
     </div>
   </div>
