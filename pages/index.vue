@@ -18,7 +18,6 @@
           yardımcı olacağını düşündüğüm yazılımlar geliştirdim. Şuan aktif
           olarak bilgi ve eğitim teknolojileri üzerine çalışmalar yürütmekteyim.
         </p>
-        <hr />
       
       </div>
     </div>
