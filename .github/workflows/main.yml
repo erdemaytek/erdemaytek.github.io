@@ -28,5 +28,6 @@ jobs:
         with:
           build_dir: docs
           target_branch: main
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
