@@ -1,21 +1,32 @@
-name: CI
-on:
+name: Deploy Website
+on: 
   push:
-    branches: [ main ]
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node
+        
+      - name: Node JS Yükleme
         uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
     
-      - name: npm install, build and generate
-        run: | 
-          npm install
-          npm run build
-          npm run generate
+      - name: Bağımlılık Yükleme
+        run: npm ci
+        
+      - name: Build Etme
+        run: npm run build
+        
+      - name: Statik Sayfa Oluşturma
+        run: npm run generate
+        
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2.2.0
+        with:
+          build_dir: docs
+          target_branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
