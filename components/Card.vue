@@ -6,10 +6,10 @@
           <figure class="image is-5by3">
             <img
               v-if="content.image != null"
-              :src="'/' + content.image"
+              :src="'/blog/' + content.image"
               alt=""
             />
-            <img v-else src="/code.jpeg" alt="" />
+            <img v-else src="/blog/code.jpeg" alt="" />
           </figure>
         </div>
       </div>

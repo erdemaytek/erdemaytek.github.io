@@ -3,8 +3,8 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-3by1">
-          <img v-if="page.image != null" :src="'/' + page.image" alt="" />
-          <img v-else src="/code.jpeg" alt="" />
+          <img v-if="page.image != null" :src="'/blog/' + page.image" alt="" />
+          <img v-else src="/blog/code.jpeg" alt="" />
         </figure>
       </div>
       <div class="card-content">
