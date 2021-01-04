@@ -8,7 +8,7 @@ tags:
     - Asp.Net Core
 ---
 
-1) Doğrudan Ana Sınıfınıza Uygulamak
+## 1) Doğrudan Ana Sınıfınıza Uygulamak
 
 Bu yöntemde kullandığımız sınıfın ilgili propertisine doğrudan validate işlemi yapıyoruz. Bunun için sayfamızda `using System.ComponentModel.DataAnnotations;` ekli olması gerekiyor. Aşağıdaki örnekte Açıklama alanının dolu olması gerektiğini ve hata durumunda vereceği hatayı belirttik.
 
