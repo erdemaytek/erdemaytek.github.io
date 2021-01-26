@@ -60,4 +60,8 @@ export default {
 </script>
 
 <style>
-</style>
+.number {
+  all: inherit;
+    
+}
+</style>>

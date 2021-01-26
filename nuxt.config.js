@@ -1,3 +1,5 @@
+import highlightjs from 'highlight.js'
+
 export default {
   env: {
     baseUrl: process.env.BASE_URL || 'http://localhost:4000'
@@ -40,7 +42,12 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['@nuxt/content'],
   content: {
-   
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css'
+      }
+    }
+  
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
